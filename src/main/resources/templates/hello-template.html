@@ -1,0 +1,10 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<p th:text="'hello ' +${name}">hello! empty</p>
+</body>
+</html>
+
+//위의 hello! empty는 thymeleaf의 장점을 이용하는 것 중에 하나인데,
+//서버가 동작하지 않고 있어도 Absolute Path복사를 통해 웹에서 html의 껍데기를 볼 수 있다.
+//그럴 때 보기 편하게 해 주기 위한 hello, empty이다.
+
